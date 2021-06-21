@@ -16,22 +16,11 @@ from sklearn.metrics import mean_squared_error, roc_auc_score
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix
 from sklearn import metrics
-from sklearn.metrics import roc_curve, auc
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.naive_bayes import BernoulliNB
-from sklearn.linear_model import LogisticRegression
-from sklearn.pipeline import Pipeline
-from sklearn.pipeline import FeatureUnion
-from sklearn.base import BaseEstimator, TransformerMixin
 from nltk.stem.porter import PorterStemmer
 import numpy as np
 import pandas as pd
 import re
 from pandas import DataFrame
-import gzip
-import matplotlib.pyplot as plt
-import seaborn as sns
-import calendar
 import warnings
 import joblib
 import nltk
